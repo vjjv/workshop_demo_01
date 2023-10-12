@@ -27,6 +27,8 @@ import {
         cameraType: 'back'
     })
 
+    
+
     await session.setSource(source)
 
     session.setSource(source)
