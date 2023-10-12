@@ -24,7 +24,7 @@ import {
     const source = createMediaStreamSource(mediaStream, {
         // transform: Transform2D.MirrorX,
         cameraType: 'back'
-    })
+    });
 
     await session.setSource(source)
 
