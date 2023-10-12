@@ -14,7 +14,7 @@ import {
 
     const { lenses } = await cameraKit.lensRepository.loadLensGroups(['1c840cc0-bead-4a6d-8328-1fbe4a5ba67a']);
 
-    session.applyLens(lenses[3]);
+    session.applyLens(lenses[0]);
     
     // let mediaStream = await navigator.mediaDevices(getUserMedia({ video: true }));
     let mediaStream = await navigator.mediaDevices.getUserMedia({ video: {
@@ -27,7 +27,7 @@ import {
         cameraType: 'back'
     })
 
-    
+
 
     await session.setSource(source)
 
