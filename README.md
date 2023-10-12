@@ -1,2 +1,1 @@
-# workshop_demo_01
- workshop_01
+# camera_kit_demo
